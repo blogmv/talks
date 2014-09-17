@@ -512,12 +512,12 @@ q {
   line-height: 72px;
 
   &:before {
-    content: '“';
+    content: '';
     position: absolute;
     margin-left: -0.5em;
   }
   &:after {
-    content: '”';
+    content: '';
     position: absolute;
     margin-left: 0.1em;
   }
@@ -939,7 +939,7 @@ aside.gdbar {
       display: none !important;
     }
   }
-  
+
   slides {
     slide {
       &.backdrop {
@@ -1044,4 +1044,29 @@ aside.gdbar {
   pre, code {
     font-family: monospace !important;
   }
+}
+
+.gdbar {
+    text-align: right;
+}
+
+.blogmv {
+    display: block;
+    font: 100 40px Helvetica Neue;
+    margin-right: 20px;
+    margin-top: 27px;
+}
+
+.my-style {
+    li {
+        line-height: 35px;
+    }
+}
+
+.zigolis {
+    margin-top: 50px;
+}
+
+.hcenter {
+    text-align: center
 }

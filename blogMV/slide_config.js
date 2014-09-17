@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Title Goes Here<br>Up To Two Lines',
-    subtitle: 'Subtitle Goes Here',
+    title: 'blogMV*<br>',
+    subtitle: 'Backbone + RequireJS',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
@@ -22,12 +22,12 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Firstname Lastname',
-    company: 'Job Title<br>Google',
+    name: 'Gabriel Zigolis',
+    company: 'Front-End Engineer<br>Meritt',
     gplus: 'http://plus.google.com/1234567890',
-    twitter: '@yourhandle',
-    www: 'http://www.you.com',
-    github: 'http://github.com/you'
+    twitter: '@zigolis',
+    www: 'http://www.zigolis.com',
+    github: 'http://github.com/zigolis'
   }/*, {
     name: 'Second Name',
     company: 'Job Title, Google',
